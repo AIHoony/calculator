@@ -1,5 +1,4 @@
 import sys
-sys.dont_write_bytecode = True  # __pycache__ 폴더 생성 방지
 from ui import View # ui.py에서 View 클래스 추가
 from ctrl import Control    # ctrl.py에서 Control 클래스 추가
 from PyQt5.QtWidgets import QApplication        
