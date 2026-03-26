@@ -31,14 +31,16 @@ class Control:
         try:
             if(b==0):
                 raise Exception("Divisor Error")
-            else:
-                return a/b
-            
+                        
         except Exception as e:
             return e
         
         return a/b
     
     def pow(self, a, b):
-        return pow(a, b)
+        
+        if (a==0):
+            return 0
+        else:
+            return pow(a, b)       
     
