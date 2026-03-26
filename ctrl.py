@@ -31,6 +31,8 @@ class Control:
         try:
             if(b==0):
                 raise Exception("Divisor Error")
+            else:
+                return a/b
             
         except Exception as e:
             return e
